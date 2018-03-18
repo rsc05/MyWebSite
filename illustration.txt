@@ -1,0 +1,6 @@
+create package.json
+
+npm init
+
+npm install jquery --save
+npm install normalize.css --save
