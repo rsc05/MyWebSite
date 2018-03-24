@@ -31,11 +31,12 @@
 		font-weight: 100;
 		font: italic 12px Luminari, fantasy;
 		color: red; /*$mainBlue;*/ /*#2f5572;*/
-		margin: 0;
+		margin: -10;
 		font-size: 1.4rem;
 
 		@mixin atSmall {
 			font-size: 2.8rem;
+			margin: -10;
 		}
 
 		@mixin atMedium {

@@ -506,7 +506,7 @@ img {
 		font-weight: 100;
 		font: italic 12px Luminari, fantasy;
 		color: red; /*$mainBlue;*/ /*#2f5572;*/
-		margin: 0;
+		margin: -10;
 		font-size: 1.4rem;
 
 	}
@@ -514,7 +514,8 @@ img {
 @media(min-width: 530px) {
 
 .large-hero__title{
-			font-size: 2.8rem
+			font-size: 2.8rem;
+			margin: -10
 
 	}
 	}
@@ -637,6 +638,11 @@ img {
 	}
 	}
 
+.page-section--testimonials {
+		background-color: #2f5572; 
+		
+	}
+
 .headline{
 	color: #2f5572;
 	font-weight: 100;
@@ -695,5 +701,50 @@ img {
 		padding-right: 65px;
 		-webkit-box-sizing: border-box;
 		        box-sizing: border-box;
+	}
+
+.site-header {
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(47, 85, 114, 0.3);
+	width: 100%;
+}
+
+.primary-nav--pull-right {
+		float: auto;
+
+	}
+
+.primary-nav ul {
+		margin: 0;
+		padding: 0;
+	}
+
+.primary-nav ul::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+.primary-nav li{
+		padding: 10px;
+		list-style: none;
+		float: left;
+		padding-right: 20px;
+		color: white;
+		font-size: 0.2rem;
+		/*padding-left: 20px;*/
+		margin-left: 20px;
+	}
+
+@media(min-width: 530px) {
+
+.primary-nav li{
+			font-size: 1.2rem
+	}
+	}
+
+.primary-nav a{
+		text-decoration: none;
 	}
 
