@@ -1,8 +1,12 @@
 .page-section {
-	padding: 2.5rem 0;
+	padding: 0.1rem 0;
 	
 	&--blue {
 		background-color: $mainBlue;
 		color: white;
+		font-size: 10px;
+		@mixin atSmall {
+			font-size: 20px;
+		}
 	}
 }

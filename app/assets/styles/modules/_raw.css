@@ -13,6 +13,7 @@
 			float: left;
 			width: 66.66%;
 		}
+
 	}
 
 	&--gutters {
@@ -23,6 +24,5 @@
 		padding-right: 65px;
 		box-sizing: border-box;
 	}
-
 
 }

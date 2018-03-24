@@ -5,6 +5,15 @@
 /*Your location*/
 	&__image {
 		display: block;
+
+	}
+
+	&__image1 {
+		display: block;
+
+		@mixin atSmall {
+			padding-bottom: 2rem;
+		}
 	}
 
 	&__text-content {
@@ -23,7 +32,7 @@
 		font: italic 12px Luminari, fantasy;
 		color: red; /*$mainBlue;*/ /*#2f5572;*/
 		margin: 0;
-		font-size: 2.4rem;
+		font-size: 1.4rem;
 
 		@mixin atSmall {
 			font-size: 2.8rem;
@@ -50,7 +59,7 @@
 
 	&__description {
 		color: white;
-		font-size: 0.8rem; /*for desktop*/
+		font-size: 0.6rem; /*for desktop*/
 		font-weight: 100;
 		text-shadow: 2px 2px 0 rgba(0,0,0,.2);
 		max-width: 480px;

@@ -477,6 +477,18 @@ img {
 
 .large-hero__image {
 		display: block;
+
+	}
+
+.large-hero__image1 {
+		display: block;
+	}
+
+@media(min-width: 530px) {
+
+.large-hero__image1 {
+			padding-bottom: 2rem
+	}
 	}
 
 .large-hero__text-content {
@@ -495,7 +507,7 @@ img {
 		font: italic 12px Luminari, fantasy;
 		color: red; /*$mainBlue;*/ /*#2f5572;*/
 		margin: 0;
-		font-size: 2.4rem;
+		font-size: 1.4rem;
 
 	}
 
@@ -534,7 +546,7 @@ img {
 
 .large-hero__description {
 		color: white;
-		font-size: 0.8rem; /*for desktop*/
+		font-size: 0.6rem; /*for desktop*/
 		font-weight: 100;
 		text-shadow: 2px 2px 0 rgba(0,0,0,.2);
 		max-width: 480px;
@@ -570,20 +582,22 @@ img {
 
 .btn--orange {
 		background-color: #d59541;
+		padding: 0.75rem 0.2rem;
 
 
 	}
 
 .btn--large {
-		font-size: 0.6rem;
-		padding: 0.9rem 1.5rem;
+		font-size: 0.5rem;
+		padding: 0.5rem 0.5rem;
 
 	}
 
 @media(min-width: 530px) {
 
 .btn--large {
-			font-size: 1rem
+			font-size: 1rem;
+			padding: 0.9rem 1.5rem
 
 	}
 	}
@@ -607,12 +621,20 @@ img {
 	}
 
 .page-section {
-	padding: 2.5rem 0;
+	padding: 0.1rem 0;
 }
 
 .page-section--blue {
 		background-color: #2f5572;
 		color: white;
+		font-size: 10px;
+	}
+
+@media(min-width: 530px) {
+
+.page-section--blue {
+			font-size: 20px
+	}
 	}
 
 .headline{
