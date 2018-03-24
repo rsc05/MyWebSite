@@ -16,15 +16,17 @@ gulp.task('watch', function (argument) {
 		browserSync.reload();
 	});
 
-	watch('./app/index.html', function () {
-		// body...
-		gulp.start('html');
-	});
+	
 
 	watch('./app/assets/styles/**/*.css', function () {
 		// body...
 		gulp.start('cssInject');
 	});
+
+	// watch('./app/index.html', function () {
+	// 	// body...
+	// 	gulp.start('html');
+	// });
 
 });
 

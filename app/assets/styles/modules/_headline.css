@@ -1,0 +1,13 @@
+.headline{
+	color: $mainBlue;
+	font-weight: 100;
+	font-size: 2.2rem;
+	
+	@mixin atSmall {
+		font-size: 3.2rem;
+	}
+	strong {
+		font-weight: 400;
+		color: red;
+	}
+}
