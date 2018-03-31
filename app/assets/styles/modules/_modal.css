@@ -1,0 +1,22 @@
+.modal {
+	position: fixed;
+	z-index: 5;
+	background-color: rgb(255,255,255, 0.85);
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	&__description { 
+		text-align: center;
+		font-size: 1.5rem;
+
+		@mixin atLarge{
+			padding-top: 100px;
+			/*padding-left: 0px;*/
+			text-align: left;
+			font-size: 1.6rem;
+		}
+
+ }
+}
