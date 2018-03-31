@@ -1,7 +1,25 @@
 .maintextt {
-	font-size: 0.8rem;
+	font-size: 1.2rem;
+	line-height: 1.65;
 	
-	@mixin atSmall {
+	/*@mixin atSmall {
 		font-size: 1.2rem;
+	}*/
+	p a {
+		font-weight: 700;
+		font-weight: bold;
+
 	}
+
+
+
+
+	@mixin atLarge {
+		font-size: 1.3rem;
+		color: black;
+		line-height: 1.3;
+		margin: 1.8rem 0;
+	}
+
+
 }

@@ -2,17 +2,28 @@
 	position: relative;
 	border-bottom: 10px solid $mainBlue;
 
+
+
 /*Your location*/
 	&__image {
 		display: block;
+		opacity: 0.5;
 
 	}
 
 	&__image1 {
 		display: block;
+		/*position: relative;*/
+		/*position: absolute;*/
+		 /*top: 20%;*/
+	    left: 25%;
+	    /*margin-right: -50%;*/
 
 		@mixin atSmall {
 			padding-bottom: 2rem;
+			left: 0%;
+
+
 		}
 	}
 
@@ -28,11 +39,11 @@
 	}
 
 	&__title{
-		font-weight: 100;
-		font: italic 12px Luminari, fantasy;
+		font-weight: 50;
+		font: italic 12px "Times New Roman", Times, serif;
 		color: red; /*$mainBlue;*/ /*#2f5572;*/
 		margin: -10;
-		font-size: 1.4rem;
+		/*font-size: 1.4rem;*/
 
 		@mixin atSmall {
 			font-size: 2.8rem;
@@ -40,7 +51,7 @@
 		}
 
 		@mixin atMedium {
-			font-size: 3.2rem;
+			font-size: 2.2rem;
 		}
 
 		@mixin atLarge {
@@ -59,24 +70,59 @@
 	}
 
 	&__description {
+		font-family: 'Tangerine', cursive;
 		color: white;
-		font-size: 0.6rem; /*for desktop*/
+		font-size: 1.2rem; /*for desktop*/
 		font-weight: 100;
 		text-shadow: 2px 2px 0 rgba(0,0,0,.2);
-		max-width: 480px;
+		max-width: 580px;
 		margin-right: auto;
 		margin-left: auto;
 
-		@mixin atSmall {
-			font-size: 1.875rem;
-			/*color: green;*/
+		a{
+			color: black;
+			
+
 		}
 
-		/*@mixin atLarge {
-			color: black;
-			font-size: 3.2rem;
+
+	/*	@mixin atSmall {
+			font-size: 1.875rem;
+			color: green;
 		}*/
 
+		@mixin atMedium {
+			font-size: 2rem;
+			color: white;
+		}
+
+		@mixin atLarge {
+			font-size: 2.2rem;
+			color: white;
+		}
+	}
+
+	&__Author {
+		font-size: 1.2rem;
+		color: black;
+
+	/*	@mixin atSmall {
+			color: black;
+			font-size: 1.875rem;
+			color: green;
+		}*/
+
+	/*	@mixin atMedium {
+			font-size: 1.2rem;
+			color: black;
+		}*/
+
+		@mixin atLarge {
+			font-size: 2.2rem;
+			color: black;
+		}
+
+		
 
 	}
 }

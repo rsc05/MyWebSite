@@ -3,20 +3,26 @@
 <head>
 	<title>Rami Chehab</title>
 	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
 </head>
 <body>
 
 	<header class="site-header">
+		<div class="site-header__menu-icon">
+			<div class="site-header__menu-icon__middle"></div>
+		</div>
 		<div class="wrapper">
-			<nav class="primary-nav primary-nav--pull-right">
-				<ul>
-					<li>Home</li>
-					<li>Previous Webpages</li>
-					<li>Research Interest</li>
-					<li>Modules Taught</li>
-					<li>Contact Me</li>
-				</ul>
-			</nav>
+			<div class="site-header__menue-content">
+				<nav class="primary-nav primary-nav--pull-right">
+					<ul>
+						<li><a href="#Home">Home</a></li>
+						<li>Previous Webpages</li>
+						<li>Research Interest</li>
+						<li>Modules Taught</li>
+						<li>Contact Me</li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 
@@ -30,16 +36,16 @@
 		<!-- <img srcset="assets/images/Edinburgh-small.jpg 570w, assets/images/Edinburgh-med.jpg 1200w, assets/images/Edinburgh.jpg 1920w" alt="Edinburugh City"> -->
 		<picture>
 			<source srcset="assets/images/Edinburgh.JPG" media="(min-width: 1200px)">
-			<source srcset="assets/images/Edinburgh-med.JPG" media="(min-width: 760px)">
+			<source srcset="assets/images/Edinburgh-med.JPG" media="(min-width: 900px)">
 			<img src="assets/images/Edinburgh-small.JPG" alt='Edinburugh Old City' class="large-hero__image">
 		</picture>
 		<div class="large-hero__text-content">
 			<div class="wrapper">
 				<h1 class="large-hero__title">Herriot Watt University</h1>
 				<!-- <h2 class="large-hero__subtitle">Herriot Watt University</h2> -->
-				<p class="large-hero__description">If I have seen further than others, it is by standing upon the shoulders of giants. (Sir, Isaac Newton)</p>
+				<p class="large-hero__description">If I have seen further than others, it is by standing upon the shoulders of giants. <a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank">(Sir, Isaac Newton)</a></p>
 
-				<p class="large-hero__description">We are what we repeatedly do. Excellence, therefore, is not an act but a habit. (Aristotle)</p>
+				<p class="large-hero__description">We are what we repeatedly do. Excellence, therefore, is not an act but a habit. <a href="https://en.wikipedia.org/wiki/Aristotle" target="_blank">(Aristotle)</a></p>
 				<p><a href="https://www.hw.ac.uk/staff/uk/macs/rami-chehab.htm" class="btn btn--orange btn--large">University Webpage</a></p>
 			</div>
 		</div>
@@ -60,7 +66,7 @@
 
 				<div class="raw__medium-8">
 					<p class="maintextt">
-						Currently, Rami Chehab is a post-doctoral research fellow at Heriot-Watt University in the School of Mathematical and Computer Sciences in Edinburgh. He, along with other researchers from multidisciplinary universities ranging from Cass Business School in London to the University of Geneva in Switzerland, are jointly working on a project for the Institute and Faculty of Actuaries (IFoA) known as "Minimising Longevity and Investment Risk while Optimising Future Pension Plans." 
+						Currently, <a href="https://www.hw.ac.uk/staff/uk/macs/rami-chehab.htm">Rami Chehab</a> is a post-doctoral research fellow at Heriot-Watt University in the School of Mathematical and Computer Sciences in Edinburgh. He, along with other researchers from multidisciplinary universities ranging from Cass Business School in London to the University of Geneva in Switzerland, are jointly working on a project for the Institute and Faculty of Actuaries (IFoA) known as "Minimising Longevity and Investment Risk while Optimising Future Pension Plans." 
 					</p>
 
 					<p class="maintextt">
@@ -81,4 +87,5 @@
 	</div>
 
 </body>
+<script src="/temp/scripts/App.js"></script>
 </html>
