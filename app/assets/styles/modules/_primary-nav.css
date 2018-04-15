@@ -35,10 +35,10 @@
 			color: white;*/
 			list-style: none;
 			float: left;
-			padding-right: 20px;
+			padding-right: 0px;
 			/*color: white;*/
 			padding-left: 20px;
-			margin-left: 20px;
+			margin-left: 10px;
 			font-size: 1.2rem;
 			left: 0;
 			a {

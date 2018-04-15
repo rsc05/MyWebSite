@@ -4,7 +4,12 @@
 	<title>Rami Chehab</title>
 	<link rel="stylesheet" type="text/css" href="temp/styles/styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Tangerine:700" rel="stylesheet">
-
+	<style>
+		@font-face {
+		    font-family: myFirstFont;
+		    src: url(sansation_light.woff);
+		}
+	</style>
 </head>
 <body>
 
@@ -18,8 +23,9 @@
 					<ul>
 						<li><a href="index.html">Home</a></li>
 						<li><a href="https://sites.google.com/site/ramischehab/" target="_blank">Previous Webpages</a></li>
-						<li>Research Interest</li>
+						<li class="open-modal">Research Interest</li>
 						<li>Modules Taught</li>
+						<li>Curriculum Vitae</li>
 						<li>Contact Me</li>
 					</ul>
 				</nav>
@@ -27,11 +33,14 @@
 		</div>
 	</header>
 	<div class="modal">
-		<h2 class="section-title section-title--blue">Research Interest</h2>
-		<div class="wrapper">
-			<p class="modal__description">Rami Chehab's research interest lies in bootstrap applications in finance and economics.</p>
-		</div>
+	<div class="modal__inner">	
+		<h2>Research Interest</h2>
+			<div class="wrapper">
+				<p class="modal__description">Rami Chehab's research interest lies in bootstrap applications in finance and economics.</p>
+			</div>
 	</div>
+	<div class="modal__close">X</div><! -- /modal__close -->
+</div>
 	<!-- <picture>
 		<source srcset="assets/images/Edinburgh.JPG" media="(min-width: 1200px)">
 		<source srcset="assets/images/Edinburgh-med.JPG" media="(min-width: 760px)">

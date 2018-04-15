@@ -1015,10 +1015,10 @@ a {
 			color: white;*/
 			list-style: none;
 			float: left;
-			padding-right: 20px;
+			padding-right: 0px;
 			/*color: white;*/
 			padding-left: 20px;
-			margin-left: 20px;
+			margin-left: 10px;
 			font-size: 1.2rem;
 			left: 0
 	}
@@ -1047,28 +1047,51 @@ a {
 .modal {
 	position: fixed;
 	z-index: 5;
-	background-color: rgb(255,255,255, 0.85);
+	background-color: rgb(255,255,255, 0.8);
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all .3s ease-out;
+	transition: all .3s ease-out;
 }
 
-.modal__description { 
-		text-align: center;
-		font-size: 1.5rem;
+/*font-size: 1rem*/
 
- }
-
-@media(min-width: 1200px) {
-
-.modal__description {
-			padding-top: 100px;
-			/*padding-left: 0px;*/
-			text-align: left;
-			font-size: 1.6rem
-
- }
+.modal--is-visible {
+		opacity: 1;
+		visibility: visible;
 	}
+
+.modal__inner{
+		position: absolute;
+		width: 100%;
+		top: 20%;
+		/*transform: translateY(-70%);*/
+	}
+
+.modal__description{
+		text-align: center;
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 1.65;
+	}
+
+.modal__close {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		font-size: 2rem;
+		-webkit-transform: scale(1.2);
+		        transform: scale(1.2);
+		color: #2f5572;
+		cursor: pointer;
+	}
+
+.modal__close:hover{
+			color: orange;
+		}
 
 
